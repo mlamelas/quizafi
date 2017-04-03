@@ -1,0 +1,155 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "5",
+        "1",
+        "0",
+        "3"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "El valor por defecto es 3. El valor optimo de replicación depende de muchos factores pero 3 es el estandar."
+      },
+      "image": "img/BigData_1Q.jpg",
+      "number": 1,
+      "prompt": "El factor de replicación por defecto en Hadoop es:"
+    },
+    {
+      "answers": [
+        "Regresión lineal",
+        "Regresión logística",
+        "Principal Component Analysis - PCA",
+	"Todas las anteriores"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Las Regresiones Logísticas son utilizadas para predecir una variable de resultado categórica de Variables predictoras que son continuas. La única limitación real para la regresión logística es que el resultado de la variable ha de ser discreta."
+      },
+      "image": "img/Datascience-Q1",
+      "number": 2,
+      "prompt": "¿Cuál de estas técnicas utilizarías para llevar a cabo un modelo de machine learning de clasificación?"
+    },
+    {
+      "answers": [
+        "HDFS y Spark",
+        "HDFS y MapReduce",
+        "Spark e Impala",
+        "MapReduce y Spark"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "Hadoop se basa en un File System distribuido (HDFS) y un framework para la computación paralela sobre el mismo (MapReduce)."
+      },
+      "image": "img/BigData_2Q.jpg",
+      "number": 3,
+      "prompt": "¿Cuáles son los componentes básicos de Hadoop?"
+    },
+    {
+      "answers": [
+        "Red neuronal",
+        "Árbol de decisión",
+        "Support Vector Machine",
+        "Todas las anteriores"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "El árbol de decisión nos permite los patrones de cómo se estructura la información de forma más clara y visual. Los otros dos modelos son considerados 'black box'"
+      },
+      "image": "img/DataScience_2Q.jpeg",
+      "number": 4,
+      "prompt": "¿Cuál de estos modelos de machine learning consideras que explica mejor los datos a la hora de obtener los resultados a negocio?"
+    },
+ {
+      "answers": [
+        "ResourceNodes",
+        "Workers",
+        "DataNodes",
+        "BasicNodes"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "Los DataNodes son los encargados de guardar los datos en su filesystem local mientras los NameNodes controlan el mismo."
+      },
+      "image": "img/BigData_3Q.jpg",
+      "number": 5,
+      "prompt": "La arquitectura de HDFS divide los nodos en maestros y esclavos. Los nodos maestros se denominan 'NameNodes'. ¿Cual es el nombre de los nodos esclavos?"
+    },
+ {
+      "answers": [
+        "Scrapy",
+        "Rvest",
+        "Pandas",
+        "Numpy"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Scrapy es una de las librerías que se ha desarrollado para Python para llevar a cabo temas de Web scraping."
+      },
+      "image": "img/DataScience_3Q.jpg",
+      "number": 6,
+      "prompt": "¿Cuál de las siguientes librerías utilizarías para escrapear datos web en Python?"
+    },
+ {
+      "answers": [
+        "Discos locales",
+        "Discos ssd de acceso rápido",
+        "Memoria RAM",
+        "No importa la ubicación siempre que sea en un filesystem dedicado"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "El NameNode almacena los metadatos en RAM por razones de simplicidad y velocidad."
+      },
+      "image": "img/BigData_4Q.png",
+      "number": 7,
+      "prompt": "¿Donde almacena un NameNode los metadatos?"
+    },
+ {
+      "answers": [
+        "Cassandra",
+        "Redis",
+        "PostgreSQL",
+        "Todas las anteriores"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "SQL se creo para trabajar con BBDD relacionales. PostgreSQL es una de ella junto con MySQL u Oracle Database. Además, Cassandra es columnar y Redis es de tipo KV (key/value)."
+      },
+      "image": "img/DataScience_4Q.jpg",
+      "number": 8,
+      "prompt": "¿Cuál de las siguientes bases de datos utilizarías para persistir si nuestro modelo de datos es relacional?"
+    },
+ {
+      "answers": [
+        "ResourceManager y NodeManager",
+        "MainTracker y NodeTracker",
+        "JobTracker y TaskTracker",
+        "NodeManager y NodeTask"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "Node Manager son los nodos que realizan las tareas mientras Resource Manager son los que controlan las mismas."
+      },
+      "image": "img/BigData_5Q.png",
+      "number": 9,
+      "prompt": "Yarn está compuesto por dos tipos de nodos: El nodo que se encarga de controlar las tareas/jobs y los nodos que se encargan de realizarlas ¿Cual es el nombre de estos tipos de nodos?"
+    },
+ {
+      "answers": [
+        "Tableau",
+        "QlikView",
+        "Carto",
+        "Todas las anteriores"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "Cada una tiene maneras diferentes de presentar los datos."
+      },
+      "image": "img/BigData_4Q.png",
+      "number": 10,
+      "prompt": "¿Cúales de las siguientes herramientas se utilizan para la visualización de datos?"
+    }
+  ],
+  "title": "¿Eres data scientist o más bien te va el rollo arquitecto Big Data?"
+}
